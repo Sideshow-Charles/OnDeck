@@ -4,7 +4,13 @@
       <h1 class="section__text"> Ondeck is your remote <span>conference calling tool.</span></h1>
       <p class="section__sub__text"> Ondeck is a service that allows you to create beautiful, online, and encrypted <br> video calls for you and your remote team.</p>
       <AppButton style="margin-top: 15px; margin-bottom: 15px; padding-left: 40px; padding-right: 40px"></AppButton>
+      <div class="review__container">
       <p class="section__final__text">5.0 Rating based on reviews from:</p>
+        <div class="review__images">
+        <img src="../assets/CapterraLogo.svg" alt="">
+        <img src="../assets/AlternativeToLogo.svg" alt="">
+     </div>
+      </div>
     </div>
     <img src="../assets/Hero-Image.png" width="400px" height="auto" alt="Hero Image" class="hero__image" />
   </div>
@@ -56,6 +62,16 @@ export default {
   font-size: 16px;
   font-weight: 300;
   color: #706c6c;
+}
+
+.review__container {
+  display: flex;
+}
+
+.review__images {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 12px;
 }
 
 @media only screen and (max-width: 1200px) {

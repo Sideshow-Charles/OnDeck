@@ -34,7 +34,7 @@ export default {};
 
 <style>
 .brands__container {
-  margin-top: 50px;
+  margin-top: 35px;
   padding: 24px 0;
 }
 
