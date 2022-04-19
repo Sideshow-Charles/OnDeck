@@ -140,7 +140,7 @@ export default {
 
 <style>
 .hero__section {
-  background-color: #f3ebe3;
+  /* background-color: #f3ebe3; */
   overflow: auto;
   /* height: 100vh; */
 }
