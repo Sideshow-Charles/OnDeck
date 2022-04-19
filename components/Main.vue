@@ -142,7 +142,7 @@ export default {
 .hero__section {
   background-color: #f3ebe3;
   overflow: auto;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .nav__bar {
@@ -273,20 +273,12 @@ export default {
   }
 
   .hamburger__menu {
-    /* display: block; */
     height: 35px;
     width: 35px;
     cursor: pointer;
     margin-bottom: 5px;
 
   }
-}
-
-@media only screen and (max-width: 576px) {
-  .hero__section {
-  background-color: #f3ebe3;
-  overflow: auto;
- }
 }
 
 .mobile__nav {
