@@ -88,21 +88,4 @@ export default {};
     width: 30%;
   }
 }
-
-/* @media only screen and (max-width: 414px) {
-  .brands__header h2 {
-    padding: 0 12px;
-    font-size: 14px;
-  }
-
-  .brands__icons {
-    flex-wrap: wrap;
-    margin: 30px 0;
-    padding: 0;
-  }
-
-   .brands__icons img {
-    width: 35%;
-  }
-} */
 </style>
