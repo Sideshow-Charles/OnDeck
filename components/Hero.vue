@@ -53,7 +53,7 @@
       </ul>
 
 
-      <img src="../assets/menu.svg" alt="hamburger-menu" class="hamburger__menu" @click="toggleMobileNav" v-show="mobile">
+      <img src="../assets/Menu.svg" alt="hamburger-menu" class="hamburger__menu" @click="toggleMobileNav" v-show="mobile">
       
       <!-- <img src="../assets/close.svg" class="mobile__close__button" v-show="mobileNav" @click="toggleMobileNav"> -->
       
