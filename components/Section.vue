@@ -6,10 +6,10 @@
       <AppButton style="margin-top: 15px; margin-bottom: 15px; padding-left: 40px; padding-right: 40px"></AppButton>
       <div class="review__container">
       <p class="section__final__text">5.0 Rating based on reviews from:</p>
-        <div class="review__images">
+        <!-- <div class="review__images">
         <img src="../assets/CapterraLogo.svg" alt="">
         <img src="../assets/AlternativeToLogo.svg" alt="">
-     </div>
+     </div> -->
       </div>
     </div>
     <img src="../assets/Hero-Image.png" width="400px" height="auto" alt="Hero Image" class="hero__image" />
@@ -68,11 +68,11 @@ export default {
   display: flex;
 }
 
-.review__images {
+/* .review__images {
   display: flex;
   justify-content: space-between;
   margin: 0 12px;
-}
+} */
 
 @media only screen and (max-width: 1200px) {
   .section__container {
