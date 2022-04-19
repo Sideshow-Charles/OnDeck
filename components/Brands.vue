@@ -36,7 +36,6 @@ export default {};
 .brands__container {
   margin-top: 50px;
   padding: 24px 0;
-  /* border: 3px solid pink; */
 }
 
 .brands__header h2 {

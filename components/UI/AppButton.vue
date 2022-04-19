@@ -1,7 +1,6 @@
 <template>
   <button
     class="app__button"
-    
     v-bind="$attrs"
     v-on="$listeners"
   >
