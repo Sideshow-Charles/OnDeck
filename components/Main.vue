@@ -282,6 +282,13 @@ export default {
   }
 }
 
+@media only screen and (max-width: 576px) {
+  .hero__section {
+  background-color: #f3ebe3;
+  overflow: auto;
+ }
+}
+
 .mobile__nav {
   display: flex;
   flex-direction: column;
