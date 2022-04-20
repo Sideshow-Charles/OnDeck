@@ -34,7 +34,7 @@ export default {
   max-width: 106.5rem;
   padding-left: 128px;
   padding-right: 128px;
-  padding-top: 3.9rem;
+  padding-top: 5rem;
 }
 
 .section__text__container {

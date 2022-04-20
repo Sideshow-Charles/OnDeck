@@ -141,6 +141,7 @@ export default {
 <style>
 .hero__section {
   overflow: auto;
+  height: 100vh;
 }
 
 .nav__bar {

@@ -34,7 +34,7 @@ export default {};
 
 <style>
 .brands__container {
-  margin-top: 35px;
+  margin-top: 55px;
   padding: 24px 0;
 }
 
@@ -60,6 +60,10 @@ export default {};
 }
 
 @media only screen and (max-width: 980px) {
+  .brands__container {
+    margin-top: 75px;
+  }
+
   .brands__icons {
     flex-wrap: wrap;
     margin: 20px 0;
