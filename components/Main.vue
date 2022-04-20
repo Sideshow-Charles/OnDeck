@@ -201,7 +201,7 @@ export default {
 
 .menu__item {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: flex-start;
   margin-left: 15px;
   margin-right: 15px;
