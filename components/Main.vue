@@ -140,9 +140,7 @@ export default {
 
 <style>
 .hero__section {
-  /* background-color: #f3ebe3; */
   overflow: auto;
-  /* height: 100vh; */
 }
 
 .nav__bar {
@@ -209,42 +207,30 @@ export default {
   margin-right: 15px;
   margin-bottom: 25px;
   margin-top: 25px;
+  background: #fff;
 }
 
-.menu__item {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 25px;
-  margin-top: 25px;
-}
-
-.menu__item {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 25px;
-  margin-top: 25px;
+.menu__item img {
+ background: #fff;
 }
 
 .dropdown__menu__content {
   margin-left: 10px;
+  background: #fff;
 }
 
 .menu__header {
   font-size: 14px;
   font-weight: bolder;
   margin-bottom: 5px;
+  background: #fff;
 }
 
 .menu__sub__text {
   color: #706c6c;
   font-size: 12px;
   line-height: 1.8;
+  background: #fff;
 }
 
 @media only screen and (max-width: 1200px) {

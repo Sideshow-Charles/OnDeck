@@ -19,5 +19,6 @@ components: {
   margin: 0;
   padding: 0;
   background-color: #f3ebe3;
+  /* height: 100vh; */
 }
 </style>
