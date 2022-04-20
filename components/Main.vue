@@ -141,7 +141,6 @@ export default {
 <style>
 .hero__section {
   overflow: auto;
-  height: 100vh;
 }
 
 .nav__bar {
@@ -261,10 +260,16 @@ export default {
 
   .hamburger__menu {
     height: 35px;
-    width: 35px;
+    width: 25px;
     cursor: pointer;
     margin-bottom: 5px;
 
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .hero__section {
+    height: 100vh;
   }
 }
 
